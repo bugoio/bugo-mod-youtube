@@ -1,0 +1,107 @@
+/**
+ *
+ * Theme Color Variables
+ * Assigns global colors variables for use elsewhere.
+ *
+ **/
+
+$primary:       {{ .Site.Params.theme_colors.primary | default "#AC5E0D" }};
+$secondary:     {{ .Site.Params.theme_colors.secondary | default "#536F48" }};
+$accent-1:      {{ .Site.Params.theme_colors.accent_1 | default "#FFDE2F" }};
+$accent-2:      {{ .Site.Params.theme_colors.accent_2 | default "#5F336A" }};
+$light:         {{ .Site.Params.theme_colors.light | default "#FFF5E7" }};
+$dark:          {{ .Site.Params.theme_colors.dark | default "#5B5551" }};
+$white:         {{ .Site.Params.theme_colors.white | default "#FFFCF6" }};
+$black:         {{ .Site.Params.theme_colors.black | default "#252524" }};
+$success:       {{ .Site.Params.theme_colors.success | default "#28a745" }};
+$info:          {{ .Site.Params.theme_colors.info | default "#17a2b8" }};
+$warning:       {{ .Site.Params.theme_colors.warning | default "#ffc107" }};
+$danger:        {{ .Site.Params.theme_colors.danger | default "#dc3545" }};
+
+@import "bugo-youtube-variables";
+
+/**
+ * Video Modal
+ * * Initial state is closed.
+ *
+ **/
+
+.video-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000000;
+  padding: 0;
+  background-color: transparentize($black, .5);
+
+  // * Open State
+
+  &.open {
+    display: block;
+  }
+
+  // * Video Window
+
+  .video-window {
+
+    .iframe-wrapper {
+      position: absolute;
+      top: 50vh;
+      left: 50vw;
+      width: 90vw;
+      // max-width: 640px;
+      transform: translateX(-50%) translateY(-50%);
+      padding-top: 52.6%;
+
+      iframe,div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: $white;
+      }
+    }
+  }
+}
+
+
+/**
+ * Video Thumbnail Link
+ *
+ * * padding-bottom determines ratio of the thumbnail
+ * * image fills the space using object-fit: cover
+ **/
+
+.video-link {
+  display: block;
+  padding-bottom: 52.6%;
+  position: relative;
+  color: $white;
+
+  img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  // * Icon
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 100;
+    width: 20%;
+    height: 20%;
+  }
+}
