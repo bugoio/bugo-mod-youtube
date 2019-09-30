@@ -9,12 +9,16 @@ $(document).ready(function(){
 
   $('.video-link').on('click',function(e){
     e.preventDefault();
-    console.log(this,'clicked');
-    $('.video-modal').toggleClass('open');
     var player;
     var ytid = $(this).attr('data-ytid');
     var target = $(this).attr('data-target');
+    var modal = $(this).attr('data-modal');
     var done = false;
+
+    console.log(player,ytid,target);
+
+    $('#' + modal).toggleClass('open');
+
 
     function onYouTubeIframeAPIReady() {
       player = new YT.Player(target,{
@@ -28,14 +32,17 @@ $(document).ready(function(){
       });
 
       function onPlayerReady(event) {
-        event.target.playVideo();
+        player.playVideo();
       }
 
       function onPlayerStateChange(event) {
+        console.log(event.data,YT.PlayerState);
         switch(true){
           case event.data == YT.PlayerState.ENDED:
+            console.log('ended');
+            // $('.video-modal').removeClass('open');
             player.destroy();
-            $('.video-modal').removeClass('open');
+            // $('.video-modal div div').append('Hey sign up for our newsletter');
             break;
         }
       }
