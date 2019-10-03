@@ -38,9 +38,9 @@ $container-max-widths: (
     xxxl: {{ .Site.Params.breakpoints.xxxl.mw | default "2200px" }}
 ) !default;
 
-//Vendors
-@import "vendors/mathsass/math";  // from Bugo SASS Utilities Module
-@import "vendors/modularscale/modularscale";  // from Bugo SASS Utilities Module
+
+@import "vendors/mathsass/math";
+@import "vendors/modularscale/modularscale";
 
 @import "functions";
 @import "mixins";
