@@ -3,3 +3,6 @@ module:
   - disable: false
     ignoreConfig: false
     path: github.com/bugoio/bugo-sass-utilities
+  - disable: false
+    ignoreConfig: false
+    path: github.com/bugoio/bugo-font-awesome
