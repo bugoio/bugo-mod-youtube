@@ -1,52 +1,9 @@
 /**
- *
- * Theme Color Variables
- * Assigns global colors variables for use elsewhere.
- *
+ * BUGO YOUTUBE
+ * TODO: add global vars for use with aLl video modules
  **/
 
-$primary:       {{ .Site.Params.theme_colors.primary | default "#AC5E0D" }};
-$secondary:     {{ .Site.Params.theme_colors.secondary | default "#536F48" }};
-$accent-1:      {{ .Site.Params.theme_colors.accent_1 | default "#FFDE2F" }};
-$accent-2:      {{ .Site.Params.theme_colors.accent_2 | default "#5F336A" }};
-$light:         {{ .Site.Params.theme_colors.light | default "#FFF5E7" }};
-$dark:          {{ .Site.Params.theme_colors.dark | default "#5B5551" }};
-$white:         {{ .Site.Params.theme_colors.white | default "#FFFCF6" }};
-$black:         {{ .Site.Params.theme_colors.black | default "#252524" }};
-$success:       {{ .Site.Params.theme_colors.success | default "#28a745" }};
-$info:          {{ .Site.Params.theme_colors.info | default "#17a2b8" }};
-$warning:       {{ .Site.Params.theme_colors.warning | default "#ffc107" }};
-$danger:        {{ .Site.Params.theme_colors.danger | default "#dc3545" }};
-
-$breakpoints: (
-    xs: {{ .Site.Params.breakpoints.xs.bp | default "0" }},
-    sm: {{ .Site.Params.breakpoints.sm.bp | default "576px" }},
-    md: {{ .Site.Params.breakpoints.md.bp | default "768px" }},
-    lg: {{ .Site.Params.breakpoints.lg.bp | default "992px" }},
-    xl: {{ .Site.Params.breakpoints.xl.bp | default "1200px" }},
-    xxl: {{ .Site.Params.breakpoints.xxl.bp | default "1400px" }},
-    xxxl: {{ .Site.Params.breakpoints.xxxl.bp | default "2200px" }}
-) !default;
-
-$container-max-widths: (
-    xs: {{ .Site.Params.breakpoints.xs.mw | default "none" }},
-    sm: {{ .Site.Params.breakpoints.sm.mw | default "576px" }},
-    md: {{ .Site.Params.breakpoints.md.mw | default "768px" }},
-    lg: {{ .Site.Params.breakpoints.lg.mw | default "992px" }},
-    xl: {{ .Site.Params.breakpoints.xl.mw | default "1200px" }},
-    xxl: {{ .Site.Params.breakpoints.xxl.mw | default "1400px" }},
-    xxxl: {{ .Site.Params.breakpoints.xxxl.mw | default "2200px" }}
-) !default;
-
-
-@import "vendors/mathsass/math";
-@import "vendors/modularscale/modularscale";
-
-@import "functions";
-@import "mixins";
-@import "helpers";
-
-@import "bugo-youtube-variables";
+ @import "bugo-youtube-vars";
 
 
 /**
