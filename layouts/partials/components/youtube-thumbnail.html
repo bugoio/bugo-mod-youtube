@@ -1,7 +1,7 @@
 <div class="youtube-thumbnail video-thumbnail {{ range .Params }}{{ . }} {{ end }}">
   <a href="#" class="video-link" data-modal="modal-{{ .id }}" data-target="video-{{ .id }}" data-ytid="{{ .id }}" role="button">
       <img src="https://img.youtube.com/vi/{{ .id }}/maxresdefault.jpg"/>
-      {{ partial "icons/play-circle-regular" . }}
+      {{ partial "icon" (slice "play-circle-regular") }}
   </a>
   {{ partial "components/youtube-modal" .id }}
 </div>

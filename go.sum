@@ -1,3 +1,5 @@
+github.com/bugoio/bugo-font-awesome v0.1.5 h1:WkfBq5h2WjTOA0DlxE231buXDu1602ephzHjugdYYmY=
+github.com/bugoio/bugo-font-awesome v0.1.5/go.mod h1:ov2c2h1rOQnheElsxk5hUsXSaU6rDRniHZkYTRGnlhI=
 github.com/bugoio/bugo-sass-utilities v0.0.3 h1:aXByIjJzSPQbkLjLYJfxwnrAGBCFBvWjmNvJW70HoFU=
 github.com/bugoio/bugo-sass-utilities v0.0.3/go.mod h1:uXtAV/0yqw9ESv/mYtbbstrY4Vvq5Z5+ATeQn8gstTE=
 github.com/bugoio/bugo-sass-utilities v0.0.5/go.mod h1:uXtAV/0yqw9ESv/mYtbbstrY4Vvq5Z5+ATeQn8gstTE=
