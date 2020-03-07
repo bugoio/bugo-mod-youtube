@@ -2,7 +2,12 @@ github.com/bugoio/bugo-font-awesome v0.0.0-20191009055643-7517661acd7b h1:ErHRBx
 github.com/bugoio/bugo-font-awesome v0.0.0-20191009055643-7517661acd7b/go.mod h1:mmH3EtFQ7ndju4/iV6+ABSfN8efgXqUpU3P3cb11ijQ=
 github.com/bugoio/bugo-font-awesome v0.0.0-20191013190121-6784c4bec12c/go.mod h1:zefdwJEapBCM2vDnlL2zx6UXN1/r8wdSTgt/YTZBapE=
 github.com/bugoio/bugo-font-awesome v0.0.0-20191018023846-e8fc9e485616/go.mod h1:P2AB0pCWrlmYi9Q1JxMVQad6SVTwk6zH9Eou+RbTqBI=
+github.com/bugoio/bugo-font-awesome v0.0.3 h1:ConlNkEdpwOo0REF52m7w4iHwroMhBnr79D3NuVLU3U=
+github.com/bugoio/bugo-font-awesome v0.0.3/go.mod h1:v+Z3RejKSFbJw7udku+EWEekeq9XPMh+XgLIZhkOt6g=
 github.com/bugoio/bugo-sass-utilities v0.0.0-20191007162338-a4cfcf43d92f h1:5rMwOLLTJhsdzIpf3oRkgbG1+TosLNGzIXgeT3Pa7X8=
 github.com/bugoio/bugo-sass-utilities v0.0.0-20191007162338-a4cfcf43d92f/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
 github.com/bugoio/bugo-sass-utilities v0.0.0-20191013070740-64200c6638ad/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
 github.com/bugoio/bugo-sass-utilities v0.0.0-20191018023647-0458624bff72/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
+github.com/bugoio/bugo-sass-utilities v0.0.0-20191018040342-cc1ad6a94a0b/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
+github.com/bugoio/bugo-sass-utilities v0.0.5 h1:KxLfqxVGVvvRgTzjFbD/9HgFRCM0aYwCO/cib5GMdIY=
+github.com/bugoio/bugo-sass-utilities v0.0.5/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
